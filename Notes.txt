@@ -1,0 +1,21 @@
+1 --> Create new local folder(Repo)
+2 --> Create cloud repo in GitHub
+3 --> Copy the link https://github.com/avinashdande/Example.git
+
+Steps by step to push our code
+1 --> First, go to our repo and open cmd through that
+2 --> git init (Git Initialization)
+3 --> configuration for username & email
+	git config --global user.name = "Avinash"
+	git config --global user.email = "avinashdande004@gmail.com"
+4 --> git add . 
+	The taotal files will be selected in the current repo
+5 --> git commit -m "message"
+6 --> git remote add origin <URL>
+	cloud repo will be linked by using the URL named Origin !!
+7 --> git commit -u push origin master 
+	This is used to push our local repo files to our cloud repo and successfully git push completed
+
+---------------------------------------------------------------
+If another dev changed and pushed it then if we pull that that changes will also be reflected in our local repository
+git pull --> Used to pull code from the cloud repo !!
